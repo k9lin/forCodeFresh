@@ -3,12 +3,12 @@
 class Microclass1:
     '''Class doc string'''
     msg = None
-    def __init__(self, msgIn):
+    def __init__(self, msg_in):
         '''docstring for constructor.'''
-        self.set_message(msgIn)
+        self.set_message(msg_in)
     def say_it(self):
         '''docstring for say_it.'''
         print(Microclass1.__name__ + u" says: " + self.msg)
-    def set_message(self, msgIn):
+    def set_message(self, msg_in):
         '''docstring for set_message.'''
-        self.msg = msgIn
+        self.msg = msg_in
