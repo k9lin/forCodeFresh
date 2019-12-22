@@ -5,10 +5,10 @@ class Microclass1:
     msg = None
     def __init__(self, msgIn):
         '''docstring for constructor.'''
-        self.set_messge(msgIn)
+        self.set_message(msgIn)
     def say_it(self):
         '''docstring for say_it.'''
-        print(self.__name__ + u" says: " + self.msg)
+        print(Microclass1.__name__ + u" says: " + self.msg)
     def set_message(self, msgIn):
         '''docstring for set_message.'''
         self.msg = msgIn
