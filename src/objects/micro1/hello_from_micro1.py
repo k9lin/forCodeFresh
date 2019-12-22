@@ -1,10 +1,16 @@
 #!/usr/bin/env python
-"""Documentation for this class"""
 class Microclass1:
+    '''Class doc string'''
     msg = None
-    """Constructor"""
+    
     def __init__(self, msgIn):
-        self.msg = msgIn
-    """say_it method"""
+        '''docstring for constructor.'''
+        self.set_messge(msgIn)
+        
     def say_it(self):
+        '''docstring for say_it.'''
         print(Microclass1.__name__ + u" says: " + self.msg)
+    
+    def set_message(self, msgIn):
+        '''docstring for set_message.'''
+        self.msg = msgIn
